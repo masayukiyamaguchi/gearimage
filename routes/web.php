@@ -14,3 +14,4 @@ use Illuminate\Support\Facades\Route;
 */
 Route::get('/',"Homepage@index")->name("home");
 Route::post('/gear_search/',"GearSearch@index")->name("gear_search");
+Route::post('/gear_preview/',"GearPreview@index")->name("gear_preview");
